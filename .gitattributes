@@ -1,3 +1,5 @@
 Main_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
 Stylized_Egypt/Maps/Stylized_Egypt_Demo_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
 Content/Stylized_Egypt/Maps/Stylized_Egypt_Demo_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+SavedCooked filter=lfs diff=lfs merge=lfs -text
+SavedCookedWindowsLabyrinthOfHawaraContentMain_BuiltData.uexp filter=lfs diff=lfs merge=lfs -text
