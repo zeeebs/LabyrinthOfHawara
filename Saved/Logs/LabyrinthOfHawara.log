@@ -8739,3 +8739,458 @@ Script Stack (0 frames) :
 [2024.01.08-01.00.59:615][807]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.01.08-01.00.59:629][808]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (149 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
  See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.MaxPhysicalPagesSceneCapture (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), and r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00)
+[2024.01.08-01.01.28:298][490]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.01.08-01.01.45:877][490]LogTurnkeySupport: Project does not require temp target
+[2024.01.08-01.01.45:884][490]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UnrealGame.target
+[2024.01.08-01.01.45:910][490]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=62254  -project="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/Windows" -clientconfig=Development" -nocompile -nocompileuat ]
+[2024.01.08-01.01.45:960][490]UATHelper: Packaging (Windows): Running AutomationTool...
+[2024.01.08-01.01.46:012][493]UATHelper: Packaging (Windows): Using bundled DotNet SDK version: 6.0.302
+[2024.01.08-01.01.46:109][497]UATHelper: Packaging (Windows): Starting AutomationTool...
+[2024.01.08-01.01.46:119][497]UATHelper: Packaging (Windows): Parsing command line: -ScriptsForProject="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=62254 -project="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" -unrealexe="C:\Program Files\Epic Games\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/Windows" -clientconfig=Development -nocompile -nocompileuat
+[2024.01.08-01.01.46:172][499]UATHelper: Packaging (Windows): Initializing script modules...
+[2024.01.08-01.01.46:320][507]UATHelper: Packaging (Windows): Total script module initialization time: 0.15 s.
+[2024.01.08-01.01.46:586][523]UATHelper: Packaging (Windows): Executing commands...
+[2024.01.08-01.01.46:619][525]UATHelper: Packaging (Windows): Installed Sdk validity:
+[2024.01.08-01.01.46:619][525]UATHelper: Packaging (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.00000.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.18362.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists")
+[2024.01.08-01.01.46:629][525]UATHelper: Packaging (Windows): Scanning for envvar changes...
+[2024.01.08-01.01.46:629][525]UATHelper: Packaging (Windows): ... done! 
+[2024.01.08-01.01.46:629][525]UATHelper: Packaging (Windows): Cleaning Temp Paths...
+[2024.01.08-01.01.46:629][525]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2024.01.08-01.01.46:640][526]UATHelper: Packaging (Windows): Setting up ProjectParams for C:\Users\zella\Desktop\Coding Projects\Labyrinth Of Hawara\LabyrinthOfHawara\LabyrinthOfHawara.uproject
+[2024.01.08-01.01.46:799][536]UATHelper: Packaging (Windows): ********** COOK COMMAND STARTED **********
+[2024.01.08-01.01.46:799][536]UATHelper: Packaging (Windows): Running UnrealEditor Cook for project C:\Users\zella\Desktop\Coding Projects\Labyrinth Of Hawara\LabyrinthOfHawara\LabyrinthOfHawara.uproject
+[2024.01.08-01.01.46:810][536]UATHelper: Packaging (Windows): Commandlet log file is C:\Program Files\Epic Games\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.01.07-17.01.46.txt
+[2024.01.08-01.01.46:820][537]UATHelper: Packaging (Windows): Running: C:\Program Files\Epic Games\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\zella\Desktop\Coding Projects\Labyrinth Of Hawara\LabyrinthOfHawara\LabyrinthOfHawara.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.01.07-17.01.46.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2024.01.08-01.01.47:255][563]UATHelper: Packaging (Windows): LogInit: Display: Running engine for game: LabyrinthOfHawara
+[2024.01.08-01.01.47:255][563]UATHelper: Packaging (Windows): LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot'
+[2024.01.08-01.01.47:255][563]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2024.01.08-01.01.47:265][563]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : config="Development"
+[2024.01.08-01.01.47:265][563]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.2-CL-26001984"
+[2024.01.08-01.01.47:265][563]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : engineversion="5.2.1-26001984+++UE5+Release-5.2"
+[2024.01.08-01.01.47:265][563]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : os="Windows 11 (22H2) [10.0.22621.2861] "
+[2024.01.08-01.01.47:265][563]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|12th Gen Intel(R) Core(TM) i7-12700H"
+[2024.01.08-01.01.47:265][563]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2024.01.08-01.01.47:265][563]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : asan="0"
+[2024.01.08-01.01.47:287][565]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\zella\Desktop\Coding Projects\Labyrinth Of Hawara\LabyrinthOfHawara\LabyrinthOfHawara.uproject" -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.01.07-17.01.46.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+[2024.01.08-01.01.47:287][565]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : loginid="b6678fde4bcc709ed1e5bea98839a4dd"
+[2024.01.08-01.01.47:403][572]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : llm="0"
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading HoloLens ini files took 0.02 seconds
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading VulkanPC ini files took 0.02 seconds
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading Android ini files took 0.02 seconds
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading IOS ini files took 0.02 seconds
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading Mac ini files took 0.02 seconds
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading Windows ini files took 0.03 seconds
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading TVOS ini files took 0.03 seconds
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading Unix ini files took 0.03 seconds
+[2024.01.08-01.01.47:414][572]UATHelper: Packaging (Windows): LogConfig: Display: Loading Linux ini files took 0.03 seconds
+[2024.01.08-01.01.47:444][574]UATHelper: Packaging (Windows): LogConfig: Display: Loading LinuxArm64 ini files took 0.03 seconds
+[2024.01.08-01.01.47:455][575]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+[2024.01.08-01.01.47:466][575]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
+[2024.01.08-01.01.47:466][575]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+[2024.01.08-01.01.47:466][575]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+[2024.01.08-01.01.47:466][575]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+[2024.01.08-01.01.47:466][575]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+[2024.01.08-01.01.47:477][576]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+[2024.01.08-01.01.47:477][576]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+[2024.01.08-01.01.47:477][576]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+[2024.01.08-01.01.47:477][576]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+[2024.01.08-01.01.47:477][576]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+[2024.01.08-01.01.47:477][576]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+[2024.01.08-01.01.47:488][577]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+[2024.01.08-01.01.47:488][577]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+[2024.01.08-01.01.47:488][577]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+[2024.01.08-01.01.47:488][577]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+[2024.01.08-01.01.47:488][577]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+[2024.01.08-01.01.47:499][577]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+[2024.01.08-01.01.47:499][578]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+[2024.01.08-01.01.47:499][578]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+[2024.01.08-01.01.47:499][578]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+[2024.01.08-01.01.47:499][578]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+[2024.01.08-01.01.47:509][578]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+[2024.01.08-01.01.47:509][578]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+[2024.01.08-01.01.47:509][578]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+[2024.01.08-01.01.47:509][578]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+[2024.01.08-01.01.47:520][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+[2024.01.08-01.01.47:520][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+[2024.01.08-01.01.47:520][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+[2024.01.08-01.01.47:520][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+[2024.01.08-01.01.47:530][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+[2024.01.08-01.01.47:530][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+[2024.01.08-01.01.47:530][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
+[2024.01.08-01.01.47:530][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+[2024.01.08-01.01.47:530][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+[2024.01.08-01.01.47:530][579]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+[2024.01.08-01.01.47:541][580]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+[2024.01.08-01.01.47:541][580]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+[2024.01.08-01.01.47:541][580]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+[2024.01.08-01.01.47:541][580]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+[2024.01.08-01.01.47:541][580]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+[2024.01.08-01.01.47:573][582]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+[2024.01.08-01.01.47:679][588]UATHelper: Packaging (Windows): RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2024.01.08-01.01.47:690][589]UATHelper: Packaging (Windows): LogHAL: Display: Platform has ~ 32 GB [34070847488 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.01.08-01.01.47:733][592]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2024.01.08-01.01.47:733][592]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2024.01.08-01.01.47:733][592]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2024.01.08-01.01.47:733][592]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2024.01.08-01.01.47:743][592]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2024.01.08-01.01.47:743][592]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2024.01.08-01.01.47:743][592]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.8
+[2024.01.08-01.01.47:743][592]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2024.01.08-01.01.47:743][592]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
+[2024.01.08-01.01.47:743][592]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2024.01.08-01.01.47:743][592]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2024.01.08-01.01.47:754][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2024.01.08-01.01.47:764][593]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.01.08-01.01.47:775][594]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.01.08-01.01.47:775][594]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.01.08-01.01.48:096][613]UATHelper: Packaging (Windows): LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.01.08-01.01.48:107][614]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2145 MiB)
+[2024.01.08-01.01.48:107][614]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: Performance to C:/Users/zella/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=2031.66MBs, RandomWriteSpeed=295.44MBs. Assigned SpeedClass 'Local'
+[2024.01.08-01.01.48:107][614]UATHelper: Packaging (Windows): LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2024.01.08-01.01.48:107][614]UATHelper: Packaging (Windows): LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2024.01.08-01.01.48:855][659]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Using Local Shader Compiler with 17 workers.
+[2024.01.08-01.01.48:855][659]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2024.01.08-01.01.48:865][659]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2024.01.08-01.01.49:121][675]UATHelper: Packaging (Windows): LogEditorDomain: Display: EditorDomain is Disabled
+[2024.01.08-01.01.49:121][675]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2024.01.08-01.01.49:132][675]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2024.01.08-01.01.49:132][675]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2024.01.08-01.01.49:132][675]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Intermediate/ShaderAutogen/PCD3D_ES3_1/AutogenShaderHeaders.ush
+[2024.01.08-01.01.49:513][698]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2024.01.08-01.01.50:452][755]UATHelper: Packaging (Windows): LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2024.01.08-01.01.50:452][755]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.08-01.01.50:973][786]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): LogCook: Display: CookSettings for Memory:
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): 	MemoryMaxUsedVirtual 0MiB
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): 	MemoryMaxUsedPhysical 0MiB
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): 	MemoryMinFreeVirtual 2048MiB
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): 	MemoryMinFreePhysical 2048MiB
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): 	MemoryTriggerGCAtPressureLevel None
+[2024.01.08-01.01.51:101][794]UATHelper: Packaging (Windows): 	UseSoftGC true (5/10)
+[2024.01.08-01.01.51:122][795]UATHelper: Packaging (Windows): LogCook: Display: Waiting for Asset Registry
+[2024.01.08-01.01.51:196][799]UATHelper: Packaging (Windows): LogCook: Display: Clearing all cooked content for platform Windows
+[2024.01.08-01.01.51:196][799]UATHelper: Packaging (Windows): LogCook: Display: Sandbox cleanup took 0.045 seconds for platforms Windows
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogCook: Display: Compiling global changed shaders for platform 'Windows'
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 310 (31000.00%)
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 3823, Unique Shaders: 3823 (100.00%)
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 63.05mb, Unique Shaders Size: 63.05mb (100.00%)
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2024.01.08-01.01.56:257][ 91]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 269
+[2024.01.08-01.01.56:268][ 92]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2024.01.08-01.01.56:268][ 92]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+[2024.01.08-01.01.56:268][ 92]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display:
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 287 (28700.00%)
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shaders: 3306, Unique Shaders: 3291 (99.55%)
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Total Shader Size: 9.04mb, Unique Shaders Size: 9.04mb (99.95%)
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: === Extended info:
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+[2024.01.08-01.01.56:311][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Maximum number of shaders in shadermap: 269
+[2024.01.08-01.01.56:321][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+[2024.01.08-01.01.56:321][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display:     4, 2, 2, 2, 2, 2, 2, 2, 2, 2
+[2024.01.08-01.01.56:321][ 95]UATHelper: Packaging (Windows): LogShaderLibrary: Display: Textual dump saved to '../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+[2024.01.08-01.01.56:831][126]UATHelper: Packaging (Windows): LogShaderLibrary: Display: =================
+[2024.01.08-01.01.56:831][126]UATHelper: Packaging (Windows): LogCook: Display: Discovering localized assets for cultures: en
+[2024.01.08-01.01.56:831][126]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 0 Packages Remain 2825 Total 2825
+[2024.01.08-01.01.56:853][127]UATHelper: Packaging (Windows): LogCook: Display: Cook Diagnostics: OpenFileHandles=165, VirtualMemory=1223MiB
+[2024.01.08-01.01.56:853][127]UATHelper: Packaging (Windows): LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+[2024.01.08-01.01.56:853][127]UATHelper: Packaging (Windows):   CookSettings.bUseSoftGC: Available physical memory 12090MiB is less than the current target for SoftGC 16246MiB.
+[2024.01.08-01.01.56:863][128]UATHelper: Packaging (Windows): LogCookCommandlet: Display: GarbageCollection... (Soft GC)
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): LogCook: Display: GarbageCollection Results:
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 	Type: Soft
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 	NumObjects:
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 		Capacity:           25231360
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 		Before GC:             34601
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 		After GC:              34596
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 		Freed by GC:               5
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 	Virtual Memory:
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 		Before GC:              1284 MB
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 		After GC:               1283 MB
+[2024.01.08-01.01.56:979][135]UATHelper: Packaging (Windows): 		Freed by GC:               1 MB
+[2024.01.08-01.01.56:989][135]UATHelper: Packaging (Windows): LogTexture: Display: Texture Encode Speed: Final (cook).
+[2024.01.08-01.01.57:052][139]UATHelper: Packaging (Windows): LogTexture: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2024.01.08-01.01.57:147][144]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for NaniteHiddenSectionMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 0d3c9910253271924f319542ba744ab6e1954760), compiling.
+[2024.01.08-01.01.57:157][145]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:157][145]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/Black_1x1_EXR_Texture_VT.Black_1x1_EXR_Texture_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:157][145]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:168][146]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenNormalMap_VT.BaseFlattenNormalMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:179][146]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:179][146]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenLinearColor_VT.BaseFlattenLinearColor_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:189][147]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:189][147]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenGrayscaleMap_VT.BaseFlattenGrayscaleMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:200][147]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:210][148]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenEmissiveMap_VT.BaseFlattenEmissiveMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.57:221][148]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.58:227][189]UATHelper: Packaging (Windows): LogTexture: Display: /Engine/EngineMaterials/BaseFlattenDiffuseMap_VT.BaseFlattenDiffuseMap_VT is marked for virtual streaming but virtual texture streaming is not available.
+[2024.01.08-01.01.58:227][189]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Falling.FP_Falling
+[2024.01.08-01.01.58:227][189]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Idle.FP_Idle
+[2024.01.08-01.01.58:238][189]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Jump.FP_Jump
+[2024.01.08-01.01.58:238][189]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Land.FP_Land
+[2024.01.08-01.01.58:249][190]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Rifle_Falling.FP_Rifle_Falling
+[2024.01.08-01.01.58:249][190]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Rifle_Idle.FP_Rifle_Idle
+[2024.01.08-01.01.58:259][190]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Rifle_Jump.FP_Rifle_Jump
+[2024.01.08-01.01.58:259][190]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Rifle_Land.FP_Rifle_Land
+[2024.01.08-01.01.58:270][191]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Rifle_Run.FP_Rifle_Run
+[2024.01.08-01.01.58:270][191]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/FirstPersonArms/Animations/FP_Run_Fwd.FP_Run_Fwd
+[2024.01.08-01.01.58:280][191]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Fall_Loop.MM_Fall_Loop
+[2024.01.08-01.01.58:280][191]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Idle.MM_Idle
+[2024.01.08-01.01.58:291][191]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Jump.MM_Jump
+[2024.01.08-01.01.58:291][191]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Land.MM_Land
+[2024.01.08-01.01.58:353][194]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.MM_Run_Fwd
+[2024.01.08-01.01.58:353][194]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Quinn/MF_Idle.MF_Idle
+[2024.01.08-01.01.58:364][194]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Quinn/MF_Run_Fwd.MF_Run_Fwd
+[2024.01.08-01.01.58:502][200]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Animations/Quinn/MF_Walk_Fwd.MF_Walk_Fwd
+[2024.01.08-01.01.58:513][201]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_l_anim.Quinn_calf_l_anim
+[2024.01.08-01.01.58:513][201]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_calf_r_anim.Quinn_calf_r_anim
+[2024.01.08-01.01.58:524][201]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_l_anim.Quinn_clavicle_l_anim
+[2024.01.08-01.01.58:534][202]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_clavicle_r_anim.Quinn_clavicle_r_anim
+[2024.01.08-01.01.58:534][202]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_l_anim.Quinn_foot_l_anim
+[2024.01.08-01.01.58:545][202]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_foot_r_anim.Quinn_foot_r_anim
+[2024.01.08-01.01.58:545][202]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_l_anim.Quinn_hand_l_anim
+[2024.01.08-01.01.58:555][203]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_hand_r_anim.Quinn_hand_r_anim
+[2024.01.08-01.01.58:566][203]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_l_anim.Quinn_lowerarm_l_anim
+[2024.01.08-01.01.58:577][204]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_lowerarm_r_anim.Quinn_lowerarm_r_anim
+[2024.01.08-01.01.58:577][204]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_l_anim.Quinn_thigh_l_anim
+[2024.01.08-01.01.58:587][204]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_thigh_r_anim.Quinn_thigh_r_anim
+[2024.01.08-01.01.58:587][204]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_l_anim.Quinn_upperarm_l_anim
+[2024.01.08-01.01.58:840][215]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Quinn/Quinn_upperarm_r_anim.Quinn_upperarm_r_anim
+[2024.01.08-01.01.59:473][241]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 130 Packages Remain 1198 Total 1328
+[2024.01.08-01.01.59:526][243]UATHelper: Packaging (Windows): LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Starter_Wind06.Starter_Wind06: 262144
+[2024.01.08-01.01.59:792][252]UATHelper: Packaging (Windows): LogAudio: Display: Chunk size for SoundWave /Game/StarterContent/Audio/Collapse02.Collapse02: 262144
+[2024.01.08-01.01.59:908][257]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for M_Master_CLR in PCD3D_SM6, Default, SM6 (DDC key hash: 3ca0e058d746ebf9721c7dfaa011cf5727f2a834), compiling.
+[2024.01.08-01.02.00:331][273]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for M_CLR_assets_grid in PCD3D_SM6, Default, SM6 (DDC key hash: 7fe81883e73b8b9b80f9bcfba3bd612ab2ca0ba8), compiling.
+[2024.01.08-01.02.00:638][285]UATHelper: Packaging (Windows): LogShaderCompilers: Display: FShaderCompileThreadRunnable::WriteNewTasks()() took too long (0.347 seconds, threshold is 0.300 s), will parallelize next time.
+[2024.01.08-01.02.00:649][286]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_l_anim.Manny_clavicle_l_anim
+[2024.01.08-01.02.00:660][286]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_clavicle_r_anim.Manny_clavicle_r_anim
+[2024.01.08-01.02.00:681][287]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture23F9881A4F7D09FA85B8FFBAC56882BF (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:702][288]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture286B71FD456BBC57D3B875B63A2AF0AA (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:712][288]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_l_anim.Manny_calf_l_anim
+[2024.01.08-01.02.00:712][288]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_calf_r_anim.Manny_calf_r_anim
+[2024.01.08-01.02.00:733][289]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture2A05A5254D431981518674B220E5E1A1 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:755][290]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture310E58554010446A08107499F126CE3D (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:776][291]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture34034B4C417D9B375A592E9A23C11137 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:798][292]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture3AD1786A42EB6F981CB7E1847869C35B (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:819][292]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture43ADA98049DD7D3E0EABF7B175F6CC97 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:840][293]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTexture617F078740EB0F77ABFB678038ACFCA7 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:860][294]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTextureB91D75A74080657D8AF886A1EE756E94 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:871][294]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_l_anim.Manny_hand_l_anim
+[2024.01.08-01.02.00:881][295]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/StarterContent/Maps/StarterMap_BuiltData.StarterMap_BuiltData:NewReflectionComponentTextureF6495ADB4998903A4DCD9AAEAD18E643 (BGRA8, 128x128 x6x1x1) (Required Memory Estimate: 3.062492 MB), EncodeSpeed: Final
+[2024.01.08-01.02.00:892][295]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_l_anim.Manny_foot_l_anim
+[2024.01.08-01.02.00:892][295]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_foot_r_anim.Manny_foot_r_anim
+[2024.01.08-01.02.00:902][296]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_hand_r_anim.Manny_hand_r_anim
+[2024.01.08-01.02.00:913][296]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_r_anim.Manny_lowerarm_r_anim
+[2024.01.08-01.02.00:913][296]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_lowerarm_l_anim.Manny_lowerarm_l_anim
+[2024.01.08-01.02.00:923][296]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_r_anim.Manny_thigh_r_anim
+[2024.01.08-01.02.00:934][297]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_l_anim.Manny_upperarm_l_anim
+[2024.01.08-01.02.00:934][297]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_upperarm_r_anim.Manny_upperarm_r_anim
+[2024.01.08-01.02.00:945][297]UATHelper: Packaging (Windows): LogAnimationCompression: Display: Fetched compressed animation data for AnimSequence /Game/Characters/Mannequins/Rigs/Poses/Manny/Manny_thigh_l_anim.Manny_thigh_l_anim
+[2024.01.08-01.02.01:463][313]UATHelper: Packaging (Windows): LogCook: Display: Cooked packages 351 Packages Remain 977 Total 1328
+[2024.01.08-01.02.01:505][314]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/FPWeapon/Materials/MaterialLayers/T_ML_FineRubber.T_ML_FineRubber (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.01.08-01.02.02:266][343]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/Fantastic_Village_Pack/textures/T_wood_planks_08_BC.T_wood_planks_08_BC (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.01.08-01.02.02:339][346]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for GizmoDefaultMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 07f47e829037bf6d443b84ba8208def2cc59d69c), compiling.
+[2024.01.08-01.02.03:471][398]UATHelper: Packaging (Windows): LogMaterial: Display: Missing cached shadermap for MirrorPlaneMaterial in PCD3D_SM6, Default, SM6 (DDC key hash: 5785c1bcc00f694111cef86fb8d72cc4ede2db6c), compiling.
+[2024.01.08-01.02.03:482][399]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/Main_BuiltData.Main_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.479041 MB), EncodeSpeed: Final
+[2024.01.08-01.02.03:492][399]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/Main_BuiltData.Main_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.713502 MB), EncodeSpeed: Final
+[2024.01.08-01.02.03:492][399]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/Main_BuiltData.Main_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 7.604136 MB), EncodeSpeed: Final
+[2024.01.08-01.02.03:502][400]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/Main_BuiltData.Main_BuiltData:ShadowMapTexture2D_0 (G8, 128x128 x1x1x1) (Required Memory Estimate: 0.437494 MB), EncodeSpeed: Final
+[2024.01.08-01.02.03:513][400]UATHelper: Packaging (Windows): LogTexture: Display: Building textures: /Game/Main_BuiltData.Main_BuiltData:ShadowMapTexture2D_1 (G8, 32x32 x1x1x1) (Required Memory Estimate: 0.085932 MB), EncodeSpeed: Final
+[2024.01.08-01.03.16:742][704]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.08-01.03.16:748][704]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.08-01.03.45:612][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.08-01.03.49:341][562]LogTurnkeySupport: Project does not require temp target
+[2024.01.08-01.03.49:347][562]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UnrealGame-Win64-Shipping.target
+[2024.01.08-01.03.49:357][562]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.2/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=62254  -project="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/Windows" -clientconfig=Shipping -nodebuginfo" -nocompile -nocompileuat ]
+[2024.01.08-01.03.49:415][564]UATHelper: Packaging (Windows): Running AutomationTool...
+[2024.01.08-01.03.49:479][567]UATHelper: Packaging (Windows): Using bundled DotNet SDK version: 6.0.302
+[2024.01.08-01.03.49:573][571]UATHelper: Packaging (Windows): Starting AutomationTool...
+[2024.01.08-01.03.49:595][571]UATHelper: Packaging (Windows): Parsing command line: -ScriptsForProject="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" Turnkey -command=VerifySdk -platform=Win64 -UpdateIfNeeded -EditorIO -EditorIOPort=62254 -project="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/LabyrinthOfHawara.uproject" -unrealexe="C:\Program Files\Epic Games\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Win64 -installed -stage -archive -package -pak -iostore -compressed -prereqs -archivedirectory="C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/Windows" -clientconfig=Shipping -nodebuginfo -nocompile -nocompileuat
+[2024.01.08-01.03.49:638][574]UATHelper: Packaging (Windows): Initializing script modules...
+[2024.01.08-01.03.49:786][583]UATHelper: Packaging (Windows): Total script module initialization time: 0.14 s.
+[2024.01.08-01.03.50:060][599]UATHelper: Packaging (Windows): Executing commands...
+[2024.01.08-01.03.50:102][602]UATHelper: Packaging (Windows): Installed Sdk validity:
+[2024.01.08-01.03.50:102][602]UATHelper: Packaging (Windows): Win64: (Status=Valid, MinAllowed_Sdk=10.0.00000.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.18362.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists")
+[2024.01.08-01.03.50:113][602]UATHelper: Packaging (Windows): Scanning for envvar changes...
+[2024.01.08-01.03.50:113][602]UATHelper: Packaging (Windows): ... done! 
+[2024.01.08-01.03.50:113][602]UATHelper: Packaging (Windows): Cleaning Temp Paths...
+[2024.01.08-01.03.50:113][602]UATHelper: Packaging (Windows): BUILD SUCCESSFUL
+[2024.01.08-01.03.50:113][602]UATHelper: Packaging (Windows): Setting up ProjectParams for C:\Users\zella\Desktop\Coding Projects\Labyrinth Of Hawara\LabyrinthOfHawara\LabyrinthOfHawara.uproject
+[2024.01.08-01.03.50:272][612]UATHelper: Packaging (Windows): ********** COOK COMMAND STARTED **********
+[2024.01.08-01.03.50:282][612]UATHelper: Packaging (Windows): Running UnrealEditor Cook for project C:\Users\zella\Desktop\Coding Projects\Labyrinth Of Hawara\LabyrinthOfHawara\LabyrinthOfHawara.uproject
+[2024.01.08-01.03.50:282][612]UATHelper: Packaging (Windows): Commandlet log file is C:\Program Files\Epic Games\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.01.07-17.03.50.txt
+[2024.01.08-01.03.50:293][613]UATHelper: Packaging (Windows): Running: C:\Program Files\Epic Games\UE_5.2\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Users\zella\Desktop\Coding Projects\Labyrinth Of Hawara\LabyrinthOfHawara\LabyrinthOfHawara.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.01.07-17.03.50.txt" -stdout -CrashForUAT -unattended -NoLogTimes  -UTF8Output
+[2024.01.08-01.03.50:738][640]UATHelper: Packaging (Windows): LogInit: Display: Running engine for game: LabyrinthOfHawara
+[2024.01.08-01.03.50:738][640]UATHelper: Packaging (Windows): LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot'
+[2024.01.08-01.03.50:738][640]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : platform="Windows"
+[2024.01.08-01.03.50:748][640]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : config="Development"
+[2024.01.08-01.03.50:748][640]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.2-CL-26001984"
+[2024.01.08-01.03.50:748][640]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : engineversion="5.2.1-26001984+++UE5+Release-5.2"
+[2024.01.08-01.03.50:748][640]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : os="Windows 11 (22H2) [10.0.22621.2861] "
+[2024.01.08-01.03.50:748][640]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|12th Gen Intel(R) Core(TM) i7-12700H"
+[2024.01.08-01.03.50:748][640]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+[2024.01.08-01.03.50:748][640]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : asan="0"
+[2024.01.08-01.03.50:769][642]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : commandline="" "C:\Users\zella\Desktop\Coding Projects\Labyrinth Of Hawara\LabyrinthOfHawara\LabyrinthOfHawara.uproject" -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.2\Engine\Programs\AutomationTool\Saved\Cook-2024.01.07-17.03.50.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output""
+[2024.01.08-01.03.50:769][642]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : loginid="b6678fde4bcc709ed1e5bea98839a4dd"
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : llm="0"
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading VulkanPC ini files took 0.02 seconds
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading Mac ini files took 0.02 seconds
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading IOS ini files took 0.02 seconds
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading HoloLens ini files took 0.02 seconds
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading Android ini files took 0.02 seconds
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading Windows ini files took 0.03 seconds
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading TVOS ini files took 0.03 seconds
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading Unix ini files took 0.03 seconds
+[2024.01.08-01.03.50:897][649]UATHelper: Packaging (Windows): LogConfig: Display: Loading Linux ini files took 0.03 seconds
+[2024.01.08-01.03.50:940][652]UATHelper: Packaging (Windows): LogConfig: Display: Loading LinuxArm64 ini files took 0.03 seconds
+[2024.01.08-01.03.50:951][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+[2024.01.08-01.03.50:951][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
+[2024.01.08-01.03.50:951][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+[2024.01.08-01.03.50:951][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+[2024.01.08-01.03.50:951][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+[2024.01.08-01.03.50:961][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+[2024.01.08-01.03.50:961][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+[2024.01.08-01.03.50:961][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+[2024.01.08-01.03.50:961][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+[2024.01.08-01.03.50:961][653]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+[2024.01.08-01.03.50:972][654]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+[2024.01.08-01.03.50:972][654]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+[2024.01.08-01.03.50:972][654]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+[2024.01.08-01.03.50:972][654]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+[2024.01.08-01.03.50:982][654]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+[2024.01.08-01.03.50:982][654]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+[2024.01.08-01.03.50:982][654]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+[2024.01.08-01.03.50:982][654]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+[2024.01.08-01.03.50:993][655]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GLTFImporter/Content/' mounted to '/GLTFImporter/'
+[2024.01.08-01.03.50:993][655]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ModelingToolsEditorMode/Content/' mounted to '/ModelingToolsEditorMode/'
+[2024.01.08-01.03.50:993][655]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+[2024.01.08-01.03.50:993][655]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+[2024.01.08-01.03.51:003][656]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+[2024.01.08-01.03.51:003][656]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+[2024.01.08-01.03.51:003][656]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+[2024.01.08-01.03.51:003][656]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+[2024.01.08-01.03.51:014][656]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+[2024.01.08-01.03.51:014][656]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+[2024.01.08-01.03.51:014][656]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+[2024.01.08-01.03.51:014][656]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+[2024.01.08-01.03.51:025][657]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryFlow/Content/' mounted to '/GeometryFlow/'
+[2024.01.08-01.03.51:025][657]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshLODToolset/Content/' mounted to '/MeshLODToolset/'
+[2024.01.08-01.03.51:025][657]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+[2024.01.08-01.03.51:025][657]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+[2024.01.08-01.03.51:035][658]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/UVEditor/Content/' mounted to '/UVEditor/'
+[2024.01.08-01.03.51:035][658]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+[2024.01.08-01.03.51:035][658]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+[2024.01.08-01.03.51:035][658]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+[2024.01.08-01.03.51:035][658]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+[2024.01.08-01.03.51:046][658]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+[2024.01.08-01.03.51:046][658]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+[2024.01.08-01.03.51:067][660]UATHelper: Packaging (Windows): LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+[2024.01.08-01.03.51:172][666]UATHelper: Packaging (Windows): RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+[2024.01.08-01.03.51:183][666]UATHelper: Packaging (Windows): LogHAL: Display: Platform has ~ 32 GB [34070847488 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.8
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2024.01.08-01.03.51:235][670]UATHelper: Packaging (Windows): LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2024.01.08-01.03.51:246][670]UATHelper: Packaging (Windows): LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2024.01.08-01.03.51:246][670]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.01.08-01.03.51:246][670]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.01.08-01.03.51:246][670]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.01.08-01.03.51:246][670]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.01.08-01.03.51:246][670]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLens'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'HoloLensClient'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2024.01.08-01.03.51:257][671]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.01.08-01.03.51:267][672]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.01.08-01.03.51:267][672]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.01.08-01.03.51:267][672]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2024.01.08-01.03.51:267][672]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.01.08-01.03.51:267][672]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.01.08-01.03.51:267][672]UATHelper: Packaging (Windows): LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.01.08-01.03.51:606][692]UATHelper: Packaging (Windows): LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.01.08-01.03.51:701][697]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2145 MiB)
+[2024.01.08-01.03.51:711][698]UATHelper: Packaging (Windows): LogDerivedDataCache: Display: Performance to C:/Users/zella/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.01ms. RandomReadSpeed=2042.82MBs, RandomWriteSpeed=9.53MBs. Assigned SpeedClass 'Local'
+[2024.01.08-01.03.51:711][698]UATHelper: Packaging (Windows): LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2024.01.08-01.03.51:711][698]UATHelper: Packaging (Windows): LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2024.01.08-01.03.52:522][747]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Using Local Shader Compiler with 17 workers.
+[2024.01.08-01.03.52:533][747]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2024.01.08-01.03.52:533][747]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2024.01.08-01.03.52:798][763]UATHelper: Packaging (Windows): LogEditorDomain: Display: EditorDomain is Disabled
+[2024.01.08-01.03.52:798][763]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2024.01.08-01.03.52:809][764]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+[2024.01.08-01.03.52:809][764]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2024.01.08-01.03.52:809][764]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Intermediate/ShaderAutogen/PCD3D_ES3_1/AutogenShaderHeaders.ush
+[2024.01.08-01.03.53:264][791]UATHelper: Packaging (Windows): LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2024.01.08-01.03.54:263][851]UATHelper: Packaging (Windows): LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2024.01.08-01.03.54:263][851]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.08-01.03.54:805][884]UATHelper: Packaging (Windows): LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): LogCook: Display: CookSettings for Memory:
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): 	MemoryMaxUsedVirtual 0MiB
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): 	MemoryMaxUsedPhysical 0MiB
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): 	MemoryMinFreeVirtual 2048MiB
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): 	MemoryMinFreePhysical 2048MiB
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): 	MemoryTriggerGCAtPressureLevel None
+[2024.01.08-01.03.54:921][891]UATHelper: Packaging (Windows): 	UseSoftGC true (5/10)
+[2024.01.08-01.03.54:995][895]UATHelper: Packaging (Windows): LogCook: Display: Waiting for Asset Registry
+[2024.01.08-01.03.55:026][897]UATHelper: Packaging (Windows): LogCook: Display: Clearing all cooked content for platform Windows
+[2024.01.08-01.03.55:365][917]UATHelper: Packaging (Windows): LogCook: Warning: Failed to move path 'C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Saved/Cooked/Windows' for async delete (LastError == 5); falling back to synchronous delete.
+[2024.01.08-01.03.55:372][918]PackagingResults: Warning: Failed to move path 'C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Saved/Cooked/Windows' for async delete (LastError == 5); falling back to synchronous delete.
+[2024.01.08-01.03.55:407][920]UATHelper: Packaging (Windows): LogCook: Warning: Failed to asyncdelete directory 'C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Saved/Cooked/Windows'. LastError == 32.
+[2024.01.08-01.03.55:407][920]UATHelper: Packaging (Windows): LogCook: Display: Sandbox cleanup took 0.385 seconds for platforms Windows
+[2024.01.08-01.03.55:410][920]PackagingResults: Warning: Failed to asyncdelete directory 'C:/Users/zella/Desktop/Coding Projects/Labyrinth Of Hawara/LabyrinthOfHawara/Saved/Cooked/Windows'. LastError == 32.
