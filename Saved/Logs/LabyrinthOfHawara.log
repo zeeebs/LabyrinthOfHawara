@@ -8378,3 +8378,364 @@ Script Stack (0 frames) :
 [2024.01.08-00.54.24:478][130]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/AlienNPC/BP_NPC6.BP_NPC6
 [2024.01.08-00.54.24:478][130]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/MainMenu/WB_MainMenu.WB_MainMenu
 [2024.01.08-00.54.24:478][130]LogContentValidation: Display: Validating /Game/Fantastic_Village_Pack/blueprints/props/BP_PROP_brazier_03.BP_PROP_brazier_03_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_E88088498A5054CD01_1525254985
+[2024.01.08-00.59.10:818][741]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.08-00.59.10:823][741]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.08-00.59.13:012][869]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.01.08-00.59.13:012][869]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-00.59.13:041][869]LogViewport: Scene viewport resized to 1144x561, mode Windowed.
+[2024.01.08-00.59.13:066][870]LogViewport: Scene viewport resized to 1144x556, mode Windowed.
+[2024.01.08-00.59.13:084][871]LogViewport: Scene viewport resized to 1144x551, mode Windowed.
+[2024.01.08-00.59.13:108][872]LogViewport: Scene viewport resized to 1144x546, mode Windowed.
+[2024.01.08-00.59.13:126][873]LogViewport: Scene viewport resized to 1144x541, mode Windowed.
+[2024.01.08-00.59.13:145][874]LogViewport: Scene viewport resized to 1144x539, mode Windowed.
+[2024.01.08-00.59.13:507][895]LogViewport: Scene viewport resized to 1144x569, mode Windowed.
+[2024.01.08-00.59.13:528][896]LogViewport: Scene viewport resized to 1144x564, mode Windowed.
+[2024.01.08-00.59.13:550][897]LogViewport: Scene viewport resized to 1144x559, mode Windowed.
+[2024.01.08-00.59.13:567][898]LogViewport: Scene viewport resized to 1144x555, mode Windowed.
+[2024.01.08-00.59.13:587][899]LogViewport: Scene viewport resized to 1144x550, mode Windowed.
+[2024.01.08-00.59.13:607][900]LogViewport: Scene viewport resized to 1144x546, mode Windowed.
+[2024.01.08-00.59.13:625][901]LogViewport: Scene viewport resized to 1144x541, mode Windowed.
+[2024.01.08-00.59.13:643][902]LogViewport: Scene viewport resized to 1144x539, mode Windowed.
+[2024.01.08-01.00.08:752][118]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.08-01.00.11:615][286]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-01.00.40:908][ 39]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.08-01.00.40:914][ 39]LogSlate: Window 'Project Settings' being destroyed
+[2024.01.08-01.00.48:646][500]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.01.08-01.00.49:159][500]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-01.00.49:201][500]LogObjectTools: Deleting 1 worlds: /Game/Stylized_Egypt/Maps/Stylized_Egypt_Demo.Stylized_Egypt_Demo
+[2024.01.08-01.00.49:201][500]LogObjectTools: Currently 20 active worlds: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_3, /Engine/Transient.World_4, /Engine/Transient.World_5, /Engine/Transient.World_6, /Engine/Transient.World_7, /Engine/Transient.World_8, /Engine/Transient.World_9, /Engine/Transient.World_11, /Engine/Transient.World_12, /Engine/Transient.World_13, /Engine/Transient.World_21, /Engine/Transient.World_22, /Engine/Transient.World_23, /Engine/Transient.World_24, /Engine/Transient.World_25, /Engine/Transient.World_26, /Engine/Transient.World_27
+[2024.01.08-01.00.49:236][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.01.08-01.00.50:802][500]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.08-01.00.50:853][500]LogUObjectGlobals: Force Deleting 6 Package(s):
+	Asset Name: /Game/Stylized_Egypt/Maps/Stylized_Egypt_Demo_BuiltData.Stylized_Egypt_Demo_BuiltData
+	Asset Type: MapBuildDataRegistry
+	Asset Name: /Game/Stylized_Egypt/Maps/Stylized_Egypt_Demo.Stylized_Egypt_Demo
+	Asset Type: World
+	Asset Name: /Game/Stylized_Egypt/Maps/Stylized_Egypt_Demo_sharedassets/layer_03_LayerInfo.layer_03_LayerInfo
+	Asset Type: LandscapeLayerInfoObject
+	Asset Name: /Game/Stylized_Egypt/Maps/Stylized_Egypt_Demo_sharedassets/layer_02_LayerInfo.layer_02_LayerInfo
+	Asset Type: LandscapeLayerInfoObject
+	Asset Name: /Game/Stylized_Egypt/Maps/Stylized_Egypt_Demo_sharedassets/layer_01_LayerInfo.layer_01_LayerInfo
+	Asset Type: LandscapeLayerInfoObject
+	Asset Name: /Game/Stylized_Egypt/Maps/Stylized_Egypt_Demo_sharedassets/auto_LayerInfo.auto_LayerInfo
+	Asset Type: LandscapeLayerInfoObject
+[2024.01.08-01.00.51:523][500]LogWorld: UWorld::CleanupWorld for Stylized_Egypt_Demo, bSessionEnded=true, bCleanupResources=true
+[2024.01.08-01.00.51:527][500]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-01.00.53:369][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.01.08-01.00.53:397][500]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.01.08-01.00.53:420][500]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: ================================================
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Total job queries 136, among them cache hits 0 (0.00%)
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Tracking 136 distinct input hashes that result in 89 distinct outputs (65.44%)
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: RAM used: 2.89 MiB of 1.60 GiB budget. Usage: 0.18%
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100.00%)
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Time job spent in pending queue: average 0.00 s, longest 0.00 s
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Job execution time: average 0.51 s, max 0.51 s
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Job life time (pending + execution): average 0.52 s, max 0.52
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.52 s
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Average processing rate: 3.88 jobs/sec
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Total thread time: 0.622 s
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Total thread preprocess time: 0.029 s
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Percentage time preprocessing: 4.73%
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Effective parallelization: 1.21 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 53.96% of total time (compiled    1 times, average 0.34 sec, max 0.34 sec, min 0.34 sec)
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 46.04% of total time (compiled    1 times, average 0.29 sec, max 0.29 sec, min 0.29 sec)
+[2024.01.08-01.00.53:474][500]LogShaderCompilers: Display: ================================================
+[2024.01.08-01.00.53:563][501]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-01.00.53:647][501]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Manny_Simple) ...
+[2024.01.08-01.00.53:782][502]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-01.00.53:848][502]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Quinn_Simple) ...
+[2024.01.08-01.00.53:947][503]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-01.00.55:754][608]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.08-01.00.55:761][608]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.08-01.00.55:776][608]LogWorldPartition: Display: GenerateStreaming started...
+[2024.01.08-01.00.55:776][608]LogWorldPartition: Display: GetPartitionedActors started...
+[2024.01.08-01.00.55:776][608]LogWorldPartition: Display: GetPartitionedActors took 40 us (total: 599 us)
+[2024.01.08-01.00.55:779][608]LogWorldPartition: Display: GenerateStreaming took 3 ms (total: 1.46 sec)
+[2024.01.08-01.00.55:779][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.08-01.00.55:779][608]PIE: New page: PIE session: FirstPersonMap (Jan 7, 2024, 9:00:55 AM)
+[2024.01.08-01.00.55:780][608]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.08-01.00.55:874][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093985s)
+[2024.01.08-01.00.55:874][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.094020s)
+[2024.01.08-01.00.55:874][608]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-01.00.55:874][608]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.08-01.00.55:874][608]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.01.08-01.00.55:876][608]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.08-01.00.55:876][608]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.08-01.00.55:876][608]LogWorldPartition: UWorldPartition::Initialize(Asset=FirstPersonMap, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2024.01.08-01.00.55:897][608]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.01.08-01.00.55:897][608]LogWorldPartition: Display: WorldPartition initialize took 20 ms (total: 5.36 sec)
+[2024.01.08-01.00.55:897][608]LogPlayLevel: PIE: World Init took: (0.023357s)
+[2024.01.08-01.00.55:919][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.01.08-01.00.55:923][608]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.01.08-01.00.55:923][608]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.08-01.00.55:923][608]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.08-01.00.55:923][608]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.08-01.00.55:923][608]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.08-01.00.55:923][608]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.01.08-01.00.55:923][608]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.01.08-01.00.55:923][608]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.01.08-01.00.55:923][608]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.08-01.00.55:923][608]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.08-01.00.55:923][608]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.08-01.00.55:924][608]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.08-01.00.55:925][608]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.08-01.00.55:977][608]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.01.08-01.00.55:977][608]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.08-01.00.55:977][608]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.08-01.00.55:977][608]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.08-01.00.55:978][608]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.01.08-01.00.55:978][608]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.01.08-01.00.55:980][608]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.01.08-01.00.55:980][608]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.01.08-01.00.55:980][608]LogInit: FAudioDevice initialized with ID 18.
+[2024.01.08-01.00.55:980][608]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonMap'.
+[2024.01.08-01.00.55:980][608]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.01.08-01.00.55:983][608]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.01.08-01.00.56:029][608]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.01.07-17.00.56
+[2024.01.08-01.00.56:038][608]LogWorld: Bringing up level for play took: 0.055516
+[2024.01.08-01.00.56:040][608]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2024.01.08-01.00.56:045][608]PIE: Server logged in
+[2024.01.08-01.00.56:046][608]PIE: Play in editor total start time 0.285 seconds.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:069][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:070][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:071][608]LogAudio: Warning: Detected orphaned sound which is not a one-shot '46273__phreaksaccount__fire_small_loop'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.01.08-01.00.56:084][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:084][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:084][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:084][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:084][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:084][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:085][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:085][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:085][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:085][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:086][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:086][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:087][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:087][608]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:124][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:124][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:124][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:125][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:125][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:125][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:126][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:126][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:126][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:126][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:127][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:127][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:127][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:128][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:128][609]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.56:169][612]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (143 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.MaxPhysicalPagesSceneCapture (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), and r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00)
+[2024.01.08-01.00.56:813][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-01.00.59:459][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-01.00.59:459][806]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.01.08-01.00.59:460][806]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.08-01.00.59:472][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-01.00.59:472][806]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.01.08-01.00.59:477][806]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.08-01.00.59:482][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-01.00.59:514][806]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.08-01.00.59:514][806]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.01.08-01.00.59:514][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.01.08-01.00.59:515][806]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.01.08-01.00.59:522][806]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-01.00.59:534][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.08-01.00.59:580][806]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.59:586][807]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2024.01.08-01.00.59:615][807]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.01.08-01.00.59:629][808]LogRenderer: Warning: Virtual Shadow Map Page Pool overflow (149 page allocations were not served), this will produce visual artifacts (missing shadow), increase the page pool limit or reduce resolution bias to avoid.
+ See r.Shadow.Virtual.MaxPhysicalPages (512), r.Shadow.Virtual.MaxPhysicalPagesSceneCapture (512), r.Shadow.Virtual.ResolutionLodBiasLocal (1.00), and r.Shadow.Virtual.ResolutionLodBiasDirectional (0.00)
