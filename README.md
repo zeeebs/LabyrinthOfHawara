@@ -32,42 +32,38 @@ Below are descriptions of the features I made for my game, along with images of 
 <hr class="dashed">
 
 <p id="MainMenu">
-<h3>Main Menu</h3>
- 
 
-<h4>Main Menu Blueprint</h4>Main Menu Blueprint
+<h4>Main Menu</h4>Main Menu
 
 ![Main Menu](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Menu%20Page.png)
 
-<h4>Collectibles HUD Blueprint</h4>
+<h4>Main Menu WB</h4>
 
-![Collectibles HUD Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/CollectHUD.png)
+![Main Menu Widget BP](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/WB%20Main%20Menu.png)
 
-<h4>Collectibles Create HUD Blueprint</h4>
+<h4>Instructions Page</h4>
 
-![Collectibles Create HUD Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/CreateHUD.png)
+![Instructions Page](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Instructions%20Page.png)
 
-<h4>Collectibles Sound and Destroy Blueprint</h4>
+<h4>Instructions WB</h4>
 
-![Collectibles Sound and Destroy Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/CollectSoundDestroy.png)
-
-<h4>Winning Blueprint</h4>
-
-![Winning Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/YouWin.png)
+![Instructions WB](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/WB%20Instructions.png)
 
 </p>
-<p id="HealthSystem">
-<h3>Health System</h3>
+<p id="NPCs">
+<h3>Alien NPCs</h3>
 
-The main obstacle in the game is the floating platforms that need to be traversed to move from one structure to another in order to collect the orbs. If you fall, you may lose health. If there is damage, the health bar will change to reflect the lost health.
+<h4>NPC Roaming BP</h4>
 
-<h4>Health Widget Blueprint</h4>
+![NPC Roaming BP](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/BP%20NPC%20Roaming.png)
 
-![Health Widget Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/HealthWidget.png)
+<h4>NPC Dialogue BP</h4>
 
-<h4>Create Health Widget Blueprint</h4>
+![NPC Dialogue BP](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/BP%20NPC%20Dialogue.png)
 
-![Create Health Widget Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/CreateHealthWidget.png)
+<h4>NPC Interaction with Player</h4>
+
+![NPC Interaction with Player](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/NPC%20Interaction.png)
 
 </p>
 <p id="DamageSystem">
