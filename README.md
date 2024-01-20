@@ -1,8 +1,8 @@
-# LabyrinthOfHawara
+# Labyrinth Of Hawara
 Escape the ancient labyrinth under the pyramid of Hawara. Some other-worldly creatures will try to help you, but you won't be able to understand them.
-
-Inspiration from itch.io game jam: <a href="[https://github.com/zeeebs/TTA-C-PlusPlus-And-UnrealEngine-Projects/tree/main/MyProjec](https://itch.io/jam/mini-jam-149-ancient)t"_blank">Mini Jam 149: Ancient</a> . The theme was Ancient, with a required limitation that the game must be written in an alien language.
-
+<p>
+Inspiration from itch.io game jam: <a href="https://itch.io/jam/mini-jam-149-ancient"_blank">Mini Jam 149: Ancient</a>. The theme was Ancient, with a required limitation that the game must be written in an alien language.
+</p>
 used git-lfs w/gitbash
 
 
