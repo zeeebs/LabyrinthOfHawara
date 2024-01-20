@@ -26,7 +26,7 @@ Below are descriptions of the features I made for my game, along with images of 
 <li><a href="#NPCs">Alien NPCs</a></li>
 <li><a href="#EndGame">End Game</a></li>
 <li><a href="#Other Skills">Other Skills</a></li>
-<li><a href="#Images">Images & Video</a></li>
+<li><a href="#Images">Images & Videos</a></li>
  </ul>
  </p>
  
@@ -91,9 +91,9 @@ When the player reaches the stairs at the end of the maze, the end of the game i
 
 </p>
 <p id="Images">
-<h3>Images & Video</h3>
+<h3>Images & Videos</h3>
 
-Lastly, here are some images from the final product and a clip of the game.
+Lastly, here are some images and videos from the final product.
 
 ![Game Image](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Interior1.png)
 ![Game Image](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Entire%20Map.png)
