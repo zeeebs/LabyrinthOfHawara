@@ -5,7 +5,7 @@ Inspiration from itch.io game jam: <a href="https://itch.io/jam/mini-jam-149-anc
 </p>
 
 <p id="Page Top">
-This project was created using Unreal Engine 5.2.1 and some free assets from the UE Marketplace. It showcases environment building, lighting, roaming NPCs with dialogue prompted from player proximity, scene switches, and sound effects and music. I used git-lfs with gitbash for this project since some files were too big to use GitHub Desktop. I had a great time coding the roaming NPCs and dialogue, as well as getting to create my own alien language.
+This project was created using Unreal Engine 5.2.1 and some free assets from the UE Marketplace. It showcases environment building, lighting, roaming NPCs with dialogue prompted from player proximity, scene switches, and sound effects and music. I used git-lfs with gitbash for this project since some files were too big to use GitHub Desktop. I had a great time coding the roaming NPCs and dialogue, as well as getting to create my own alien font
 
 The objective of the game is to find your way out of the maze below a pyramid; there is only one path out. The alien NPCs tell you the trick, but there is no way to understand them. There is a way to find your way out that is not blindly wandering. Pay attention to the decor and notice the patterns, and you'll find the correct path. For future development of this game, I want to add in gameplay for dechiphering their langauge, such as finding clues to find a decoder. 
 
@@ -23,9 +23,8 @@ Below are descriptions of the features I made for my game, along with images of 
 <li><a href="#MainMenu">Main Menu</a></li>
 <li><a href="#NPCs">Alien NPCs</a></li>
 <li><a href="#EndGame">End Game</a></li>
-<li><a href="#Scene Switches">Scene Switches</a></li>
 <li><a href="#Other Skills">Other Skills</a></li>
-<li><a href="#Video">Video</a></li>
+<li><a href="#Images">Images & Video</a></li>
  </ul>
  </p>
  
@@ -66,64 +65,36 @@ Below are descriptions of the features I made for my game, along with images of 
 ![NPC Interaction with Player](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/NPC%20Interaction.png)
 
 </p>
-<p id="DamageSystem">
-<h3>Damage System</h3>
-The damage system is triggered using time, so losing health is determined by how long the player is falling for. If the fall is over one second, the player will lose health at intervals of 25%. If the player dies, the game ends.
+<p id="EndGame">
+<h3>End Game</h3>
+When the player reaches the stairs at the end of the maze, the end of the game is triggered.
 
-<h4>Damage System Blueprint</h4>
+<h4>Eng Game</h4>
 
-![Damage System Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/DamageSystem.png)
+![End Game](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/End%20Page.png)
 
-<h4>Receive Damage Blueprint</h4>
+<h4>End Game BP</h4>
 
-![Receive Damage Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/ReceiveDamage.png)
+![End Game BP](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/BP%20End%20Game.png)
 
-<h4>Game Over Blueprint</h4>
-
-![Game Over Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/GameOver.png)
-
-</p>
-<p id="Scene Switches">    
-<h3>Scene Switches</h3>
-
-There are 3 scene switches. This includes a main menu scene to play the game, the game over scene when the player dies, and a scene for when the player is successful in collecting all 30 orbs. The main menu scene has a play button and a quit button. The game over and winning scenes have a retry button, a quit button, and a main menu button.
-
-<h4>Main Menu Blueprint</h4>
-
-![Main Menu Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/MainMenu.png)
-
-<h4>Win Menu Blueprint</h4>
-
-![Win Menu Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/WinMenu.png)
-
-<h4>Game Over Menu Blueprint</h4>
-
-![Game Over Menu Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/LoseMenu.png)
 
 </p>
 <p id="Other Skills">
 <h3>Other Skills</h3>
 <ul>
-<li>Creating a level from scratch. I learned the value of creating a rough draft prior to beginning development. I did a lot of it just as I went which made for some frustration and lack of direction. Planning out the game ahead first would have been very helpful.</li>
-<li>Gaining more experience with Unreal Engine and becoming more comfortable using blueprints instead of written code.</li>
-<li>Utilizing pre-made features from Unreal Engine and modifying them to work with my game.</li>
+<li>I got to create my own font for this game which was super fun and different.</li>
+<li>I figured out how to have the mouse cursor be visible or not, which I struggled with on previous projects.</li>
+<li>I became more knowledgeable and comfortable using git-lfs and gitbash.</li>
 </ul>
 
 </p>
 <p id="Images">
-<h3>Images</h3>
+<h3>Images & Video</h3>
 
-Lastly, here are some images from the final product.
+Lastly, here are some images from the final product and a clip of the game.
 
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/StartMenu.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/YouWinMenu.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/GameOverMenu.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/inGame.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/Platforms.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/landscaping1.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/landscaping2.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/landscaping3.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/fromAbove.png)
-![Game Image](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/sideView.png)
-  
-<h4><a href="#CollectibleSystem">Collectible System</a>, <a href="#HealthSystem">Health System</a>, <a href="#DamageSystem">Damage System</a>, <a href="#Scene Switches">Scene Switches</a>, <a href="#Other Skills">Other Skills</a>, <a href="#Images">Images</a>, <a href="#Page Top">Page Top</a></h4>
+![Game Image](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Interior1.png)
+![Game Image](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Entire%20Map.png)
+![Game Image](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/alientfont.png)
+
+<h4><a href="#MainMenu">Main Menu</a>, <a href="#NPCs">Alien NPCs</a>, <a href="#EndGame">End Game</a>, <a href="#Other Skills">Other Skills</a>, <a href="#Images">Images & Video</a>, <a href="#Page Top">Page Top</a></h4>
