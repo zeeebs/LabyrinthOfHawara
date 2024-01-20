@@ -7,7 +7,9 @@ Inspiration from itch.io game jam: <a href="https://itch.io/jam/mini-jam-149-anc
 <p id="Page Top">
 This project was created using Unreal Engine 5.2.1 and some free assets from the UE Marketplace. It showcases environment building, lighting, roaming NPCs with dialogue prompted from player proximity, scene switches, and sound effects and music. I used git-lfs with gitbash for this project since some files were too big to use GitHub Desktop. I had a great time coding the roaming NPCs and dialogue, as well as getting to create my own alien font.
 
-The objective of the game is to find your way out of the maze below a pyramid; there is only one path out. The alien NPCs tell you the trick, but there is no way to understand them. There is a way to find your way out that is not blindly wandering. Pay attention to the decor and notice the patterns, and you'll find the correct path. For future development of this game, I want to add in gameplay for dechiphering their langauge, such as finding clues to find a decoder. 
+The objective of the game is to find your way out of the maze below a pyramid; there is only one path out. The alien NPCs tell you the trick, but there is no way to understand them. There is a way to find your way out that is not blindly wandering. Pay attention to the decor and notice the patterns, and you'll find the correct path. 
+
+For future development of this game, I want to add in gameplay for dechiphering their langauge, such as finding clues to find a decoder. I should also reduce the players walking speed and the speed of the camera movement a little so it does not feel so jerk-ey. Additionally, sometimes the NPCs get stuck on nothing, so work will need to be done on them.
 
 
 Credits:
