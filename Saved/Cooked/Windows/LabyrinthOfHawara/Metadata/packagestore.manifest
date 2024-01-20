@@ -3941,6 +3941,14 @@
 			"ChunkId": "4e820b55728ffce300000002"
 		},
 		{
+			"Path": "LabyrinthOfHawara/Content/Splash/EdSplash.uasset",
+			"ChunkId": "3791d92f4c329e1200000001"
+		},
+		{
+			"Path": "LabyrinthOfHawara/Content/Splash/Splash.uasset",
+			"ChunkId": "9d6adc5d5486480800000001"
+		},
+		{
 			"Path": "LabyrinthOfHawara/Content/StarterContent/Architecture/Floor_400x400.uasset",
 			"ChunkId": "f09c2e16ea47c41800000001"
 		},
@@ -12832,6 +12840,18 @@
 			],
 			"BulkDataChunkIds": [
 				"4e820b55728ffce300000002"
+			]
+		},
+		{
+			"Name": "/Game/Splash/EdSplash",
+			"ExportBundleChunkIds": [
+				"3791d92f4c329e1200000001"
+			]
+		},
+		{
+			"Name": "/Game/Splash/Splash",
+			"ExportBundleChunkIds": [
+				"9d6adc5d5486480800000001"
 			]
 		},
 		{
