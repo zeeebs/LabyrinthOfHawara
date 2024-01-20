@@ -3584,3 +3584,5 @@ Script Stack (0 frames) :
 [2024.01.20-19.40.38:620][877]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI/MainMenu/WB_MainMenu_Auto2
 [2024.01.20-19.40.38:620][877]LogSavePackage: Moving '../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth of Hawara/LabyrinthOfHawara/Saved/WB_MainMenu_Auto2F56327EF48A809D2E99D32B3AB909CCF.tmp' to '../../../../../../Users/zella/Desktop/Coding Projects/Labyrinth of Hawara/LabyrinthOfHawara/Saved/Autosaves/Game/UI/MainMenu/WB_MainMenu_Auto2.uasset'
 [2024.01.20-19.40.38:620][877]LogFileHelpers: Auto-saving content packages took 0.028
+[2024.01.20-19.48.54:284][364]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.2.1-26001984+++UE5+Release-5.2
+[2024.01.20-19.48.54:582][364]LogAnalyticsSessionSummarySender: Sent summary session report for: AppId=UEEditor.Rocket.Release SessionId={3E3604E4-42DF-592A-4173-9AB8F1543D9D}
