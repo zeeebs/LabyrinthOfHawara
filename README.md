@@ -3,13 +3,12 @@ Escape the ancient labyrinth under the pyramid of Hawara. Some other-worldly cre
 <p>
 Inspiration from itch.io game jam: <a href="https://itch.io/jam/mini-jam-149-ancient"_blank">Mini Jam 149: Ancient</a>. The theme was Ancient, with a required limitation that the game must be written in an alien language.
 </p>
-used git-lfs w/gitbash
-
 
 <p id="Page Top">
-<b>Labyrinth Of Hawara</b> made with Unreal Engine 5.2.1
+This project was created using Unreal Engine 5.2.1 and some free assets from the UE Marketplace. It showcases environment building, lighting, roaming NPCs with dialogue prompted from player proximity, scene switches, and sound effects and music. I used git-lfs with gitbash for this project since some files were too big to use GitHub Desktop. I had a great time coding the roaming NPCs and dialogue, as well as getting to create my own alien language.
 
-This project was created using Unreal Engine 5.2.1 and some free assets from the UE Marketplace. It showcases environment building, lighting, roaming NPCs with dialogue prompted from player proximity, scene switches, and sound effects and music. I had a great time coding the roaming NPCs and dialogue, as well as getting to create my own alien language.
+The objective of the game is to find your way out of the maze below a pyramid; there is only one path out. The alien NPCs tell you the trick, but there is no way to understand them. There is a way to find your way out that is not blindly wandering. Pay attention to the decor and notice the patterns, and you'll find the correct path. For future development of this game, I want to add in gameplay for dechiphering their langauge, such as finding clues to find a decoder. 
+
 
 Credits:
 
@@ -21,25 +20,24 @@ Gameplay Music - PhreaKsAccount via FreeSound.org
 
 Below are descriptions of the features I made for my game, along with images of my blueprints and final product images.
 <ul>
-<li><a href="#CollectibleSystem">Collectible System</a></li>
-<li><a href="#HealthSystem">Health System</a></li>
-<li><a href="#DamageSystem">Damage System</a></li>
+<li><a href="#MainMenu">Main Menu</a></li>
+<li><a href="#NPCs">Alien NPCs</a></li>
+<li><a href="#EndGame">End Game</a></li>
 <li><a href="#Scene Switches">Scene Switches</a></li>
 <li><a href="#Other Skills">Other Skills</a></li>
-<li><a href="#Images">Images</a></li>
+<li><a href="#Video">Video</a></li>
  </ul>
  </p>
  
 <hr class="dashed">
 
-<p id="CollectibleSystem">
-<h3>Collectible System</h3>
+<p id="MainMenu">
+<h3>Main Menu</h3>
  
-The objective of the game is to find your way out of the maze below a pyramid. The alien NPCs tell you the trick to finding your way out, but there is no way to understand them. For future development of this game, I want to add in features to dechipher their langauge .
 
 <h4>Main Menu Blueprint</h4>Main Menu Blueprint
 
-![Main Menu Blueprint](https://github.com/zeeebs/CollectionGame-UnrealEngineLiveProject/blob/main/img/CollectCount.png)
+![Main Menu](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Menu%20Page.png)
 
 <h4>Collectibles HUD Blueprint</h4>
 
