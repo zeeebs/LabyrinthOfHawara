@@ -13,12 +13,13 @@ The objective of the game is to find your way out of the maze below a pyramid; t
 Credits:
 
 Environment:
-Stylized Egypt - AleksandrIvanov
-FANTASTIC Village Pack - Tidal Flask Studios (only the torches)
-Fire FX Sound - dkiller2204 via FreeSound.org
-Gameplay Music - PhreaKsAccount via FreeSound.org
-To create my own font I used <a href=" https://www.calligraphr.com/en/">calligraohr.com</a>.
-
+<ul>
+<li>Stylized Egypt - AleksandrIvanov</li>
+<li>FANTASTIC Village Pack - Tidal Flask Studios (only the torches)</li>
+<li>Fire FX Sound - dkiller2204 via FreeSound.org</li>
+<li>Gameplay Music - PhreaKsAccount via FreeSound.org</li>
+<li>To create my own font I used <a href="https://www.calligraphr.com/en/"_blank">calligraphr.com</a>.</li>
+</ul>
 Below are descriptions of the features I made for my game, along with images of my blueprints and final product images & a video.
 <ul>
 <li><a href="#MainMenu">Main Menu</a></li>
