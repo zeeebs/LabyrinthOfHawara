@@ -28,7 +28,7 @@ Below are descriptions of the features I made for my game, along with images of 
 <li><a href="#NPCs">Alien NPCs</a></li>
 <li><a href="#EndGame">End Game</a></li>
 <li><a href="#Other Skills">Other Skills</a></li>
-<li><a href="#Images">Images & Videos</a></li>
+<li><a href="#Images">Images</a></li>
  </ul>
  </p>
  
@@ -93,12 +93,12 @@ When the player reaches the stairs at the end of the maze, the end of the game i
 
 </p>
 <p id="Images">
-<h3>Images & Videos</h3>
+<h3>Images</h3>
 
-Lastly, here are some images and videos from the final product.
+Lastly, here are some images from the final product.
 
 ![Game Image](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Interior1.png)
 ![Game Image](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/Entire%20Map.png)
 ![Game Image](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/alientfont.png)
 
-<h4><a href="#MainMenu">Main Menu</a>, <a href="#NPCs">Alien NPCs</a>, <a href="#EndGame">End Game</a>, <a href="#Other Skills">Other Skills</a>, <a href="#Images">Images & Video</a>, <a href="#Page Top">Page Top</a></h4>
+<h4><a href="#MainMenu">Main Menu</a>, <a href="#NPCs">Alien NPCs</a>, <a href="#EndGame">End Game</a>, <a href="#Other Skills">Other Skills</a>, <a href="#Images">Images</a>, <a href="#Page Top">Page Top</a></h4>
