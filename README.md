@@ -73,7 +73,7 @@ Below are descriptions of the features I made for my game, along with images of 
 <h3>End Game</h3>
 When the player reaches the stairs at the end of the maze, the end of the game is triggered.
 
-<h4>Eng Game</h4>
+<h4>End Game</h4>
 
 ![End Game](https://github.com/zeeebs/LabyrinthOfHawara/blob/main/ReadMe%20Images/End%20Page.png)
 
